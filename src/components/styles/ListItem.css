@@ -1,0 +1,80 @@
+.comidaListItem-container{
+    margin:4px;
+    border-radius: 12px;
+    background: rgba(255,255,255,.3);
+    backdrop-filter: blur(8px);
+    padding: 4px;
+    -webkit-box-shadow: 10px 10px 46px -30px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px -30px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px -30px rgba(0,0,0,0.75);
+    color:#000;
+    scroll-snap-align: center;
+}
+
+.comidaListItem-img {
+    height:150px;
+    width:100%;
+    border-radius: 8px;
+}
+
+.comidaListItem-name {
+    text-align: left;
+    margin:0;
+    font-size: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.comidaListItem-button{
+    background:#339DFF;
+    border:none;
+    border-radius: 12px;
+    padding: 8px 32px;
+    color: #fff;
+    text-align:center;
+    margin: 12px auto;
+}
+
+.comidaListItem-container a {
+    display: grid;
+    text-decoration: none;
+}
+
+.comidaListItem-beneficioso,.comidaListItem-norecomendable,.comidaListItem-toxico {
+    padding: 0;
+    margin:6px 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+.comidaListItem-beneficioso, .comidaInfo-beneficioso{
+    color: #168E00;
+}
+
+.comidaListItem-norecomendable, .comidaInfo-norecomendable {
+    color: #FF7F00;
+}
+
+.comidaListItem-toxico, .comidaInfo-toxico{
+    color: #D30000;
+}
+
+
+.comidaListItem-button {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+.comidaListItem-button {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .comidaListItem-button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
