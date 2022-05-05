@@ -12,9 +12,9 @@ const App = () => {
     <Router>
         <Layout>
             <Routes>
-                <Route path='/home' element={<Home />}/>
+                <Route path='/' element={<Home />}/>
                 <Route path='*' element={<NotFound />}></Route>
-                <Route path="/comida">
+                <Route path="comida">
                   {comidaList.map(comida=>(
                     <Route key={comida.id} path={comida.id} element={<ComidaInfo name={comida.name} img={comida.img} comible={comida.comible} info={comida.info} id={comida.id} />}/>
                   ))}
