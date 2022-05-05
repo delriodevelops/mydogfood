@@ -12,13 +12,13 @@ const App = () => {
     <Router>
         <Layout>
             <Routes>
-                <Route exact path='/' element={<Home />}/>
-                <Route exact path="/comida">
+                <Route exact path='/mydogfood' element={<Home />}/>
+                <Route path='*' element={<NotFound />}/> 
+                <Route exact path="/mydogfood/comida">
                   {comidaList.map(comida=>(
                     <Route key={comida.id} path={comida.id} element={<ComidaInfo name={comida.name} img={comida.img} comible={comida.comible} info={comida.info} id={comida.id} />}/>
                     ))}
                 </Route>
-                {/* <Route path='*' element={<NotFound />}/> */}
             </Routes>
         </Layout>
     </Router>
