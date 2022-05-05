@@ -18,7 +18,7 @@ const App = () => {
                     <Route key={comida.id} path={comida.id} element={<ComidaInfo name={comida.name} img={comida.img} comible={comida.comible} info={comida.info} id={comida.id} />}/>
                     ))}
                 </Route>
-                <Route path='*' element={<NotFound />}></Route>
+                {/* <Route path='*' element={<NotFound />}/> */}
             </Routes>
         </Layout>
     </Router>
