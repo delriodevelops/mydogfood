@@ -5,8 +5,13 @@ import "./styles/Home.css"
 
 
 const Home = () => {
+
+  const newPageTitle = 'Home - MyDogFood';
+  document.querySelector('title').textContent = newPageTitle;
+
   const [search,setSearch]= useState('');
-  const handleSearch = e => setSearch(e.target.value);
+  
+  const handleSearch = e => setSearch(e.target.value)
   
   const [filter,setFilter]=useState({
     beneficioso:true,

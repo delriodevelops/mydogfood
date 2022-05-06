@@ -2,6 +2,10 @@ import React from 'react'
 import "./styles/ComidaInfo.css"
 
 const ComidaInfo = ({name,comible,info,id,img}) => {
+
+const newPageTitle = `${name} - MyDogFood`;
+document.querySelector('title').textContent = newPageTitle;
+
   return (
     <div className="comidaInfo-container">
         <img src={img} alt={name} title={name} className="comidaInfo-img" />
