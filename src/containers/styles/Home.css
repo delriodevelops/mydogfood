@@ -75,7 +75,12 @@ header {
     right:6px;
     display:grid;
     place-items: center;
-    color:#fff
+    color:#fff;
+    transition: .3s;
+}
+.fa-house:hover {
+    background: rgba(0,0,0,.55);
+    color: rgba(255,255,255,.8);
 }
 
 html{
