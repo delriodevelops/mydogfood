@@ -62,8 +62,12 @@ header {
 .fa-house {
     position: fixed;
     backdrop-filter: blur(16px);
-    width: 48px;
-    height: 48px;
+    height: 9vw;
+    min-height: 48px;
+    min-width: 48px;
+    max-height: 84px;
+    max-width: 84px;
+    width: 9vw;
     border-radius: 50%;
     background: rgba(0,0,0,.7);
     z-index: 100;
@@ -87,4 +91,35 @@ html{
     margin: 0 4px 0 0
 }
 
+@media (min-width:950px) {
+    .comidaList-container {
+        display: grid;
+        grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+        margin: 12px;
+        scroll-snap-type: y mandatory;
+        height: calc(100%+150px);
+    }
+    .home-input {
+        width: 70%;
+    }
+}
 
+@media (min-width:1100px) {
+    .comidaList-container {
+        display: grid;
+        grid-template-columns: calc(100%/4) calc(100%/4) calc(100%/4) calc(100%/4);
+        margin: 12px;
+        scroll-snap-type: y mandatory;
+        height: calc(100%+150px);
+    }
+}
+
+@media (min-width:1100px) {
+    .comidaList-container {
+        display: grid;
+        grid-template-columns: calc(100%/5) calc(100%/5) calc(100%/5) calc(100%/5) calc(100%/5);
+        margin: 12px;
+        scroll-snap-type: y mandatory;
+        height: calc(100%+150px);
+    }
+}

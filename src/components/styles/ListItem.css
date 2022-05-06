@@ -78,3 +78,33 @@
    color: #fff;
    text-decoration: none;
  }
+
+ @media (min-width:500px) {
+    .comidaListItem-img {
+        height: 200px;
+    }
+ }
+
+ @media (min-width:600px) {
+    .comidaListItem-img {
+        height: 250px;
+    }
+}
+
+@media (min-width:700px) {
+    .comidaListItem-img {
+        height: 300px;
+    }
+ }
+
+ @media (min-width:800px) {
+    .comidaListItem-img {
+        height: 350px;
+    }
+ }
+
+ @media (min-width:950px) {
+    .comidaListItem-img {
+        height: 200px;
+    }
+ }
