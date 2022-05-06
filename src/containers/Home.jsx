@@ -16,9 +16,9 @@ const Home = () => {
   
   const filteredComida = comidaList.filter(
     comida=>(
-      (!!filter.beneficioso && (comida.comible.includes("Beneficioso") && comida.name.toLowerCase().includes(search.toLowerCase())))||
-      (!!filter.noRecomendado && (comida.comible.includes("No recomendado") && comida.name.toLowerCase().includes(search.toLowerCase())))||
-      (!!filter.toxico && (comida.comible.includes("Tóxico") && comida.name.toLowerCase().includes(search.toLowerCase())))
+      (!!filter.beneficioso && (comida.comible.includes("Beneficioso") && (comida.name.toLowerCase().includes(search.toLowerCase()) || comida.info.toLowerCase().includes(search.toLowerCase()) || comida.tags.toLowerCase().includes(search.toLowerCase()) )))||
+      (!!filter.noRecomendado && (comida.comible.includes("No recomendado") && (comida.name.toLowerCase().includes(search.toLowerCase()) || comida.info.toLowerCase().includes(search.toLowerCase()) || comida.tags.toLowerCase().includes(search.toLowerCase()) )))||
+      (!!filter.toxico && (comida.comible.includes("Tóxico") && (comida.name.toLowerCase().includes(search.toLowerCase()) || comida.info.toLowerCase().includes(search.toLowerCase()) || comida.tags.toLowerCase().includes(search.toLowerCase()) )))
     )
   )
 
@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <>
-      <input id="home-input" maxLength="20" type="text" className="home-input" value={search} placeholder='Espinacas' onChange={handleSearch}></input>
+      <input id="home-input" maxLength="64" type="text" className="home-input" value={search} placeholder='Espinacas' onChange={handleSearch}></input>
       <div className="home-filters">
         <input type="checkbox" defaultChecked onClick={handleBeneficioso} className="beneficioso-input" /><span>Beneficioso</span>
         <input type="checkbox" defaultChecked onClick={handleNoRecomendable} className="no-recomendable-input" /><span>No recomendable</span>

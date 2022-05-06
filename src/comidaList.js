@@ -1,6 +1,17 @@
+/* 
+"name":"",
+"tags":"",
+"comible":"",
+"info":"",
+"id":"",
+"img":"",
+*/
+
+
 export const comidaList = [
     { 
         "name":"Aceite de Oliva",
+        "tags":"mejor alimento del mundo",
         "comible":"No recomendado",
         "info":"No es perjudicial darlo, sin embargo no es tan beneficioso para los perros como lo es para nosotros, en especial porque es muy rico en Omega 6 que tiene propiedades inflamatorias. No debería en ningún caso sustituir a los aceites de origen marino como el aceite de pescado. Por lo demás, a los perros les gusta su sabor.",
         "id":"1",
@@ -8,6 +19,7 @@ export const comidaList = [
     },
     {
         "name":"Acelgas",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Con mucha vitamina A, C y E para un manto fantástico, así como magnesio, hierro, potasio, calcio y fibra, es una buenísima elección para su alimentación. Considerando su contenido en oxalata es preferible darlas cocidas.",
         "id":"2",
@@ -15,6 +27,7 @@ export const comidaList = [
     },
     {
         "name":"Aguacate",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Olvídate del mito de que es tóxico, quitándole el hueso, el rabillo y la piel, un buen aguacate maduro de vez en cuando hará bien a tu perro. Contiene mucha fibra, vitaminas K, B5, B6, C y E y más potasio que el plátano. Además, es un conocido anticancerígeno así que ¿por qué privar a nuestro perro de esta delicia?",
         "id":"3",
@@ -22,6 +35,7 @@ export const comidaList = [
     },
     {
         "name":"Ajo",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Siempre conflictivo, la verdad es que el ajo en crudo es fenomenal para los perros debido a que es un antibiótico natural. Es verdad que en cantidades excesivas puede afectar a los glóbulos rojos, pero de uno a tres gajos a la semana para un perro de 20 Kgs es aceptable.",
         "id":"4",
@@ -29,6 +43,7 @@ export const comidaList = [
     },
     {
         "name":"Albaricoque",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Tanto albaricoques (en temporada) como su versión seca, los orejones, son perfectos para nuestros perros, eso sí, un poco, no atiborrarse que algunos perros se vuelven locos. Y también evitar el hueso, como en el caso de melocotones, persimones y otras frutas. Cargadito de fibra y potasio.",
         "id":"5",
@@ -36,6 +51,7 @@ export const comidaList = [
     },
     {
         "name":"Alcachofa",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Apropiada en pequeñas cantidades. Cocer y cortar en trocitos el corazón, quitando la parte dura de la cáscara que puede provocar obstrucción. Tienen bastantes vitaminas y minerales beneficiosos.",
         "id":"6",
@@ -43,6 +59,7 @@ export const comidaList = [
     },
     {
         "name":"Alcohol",
+        "tags":"",
         "comible":"Tóxico",
         "info":"El alcohol, de cualquier tipo, puede producir serias intoxicaciones en perros aunque muchos de ellos se sienten atraídos por él. Vómitos, diarreas o incluso coma pueden ser algunas de las consecuencias. Por ello, la próxima vez que veamos ese vídeo tan gracioso del perro bebiendo cerveza, mejor no nos reímos.",
         "id":"7",
@@ -50,6 +67,7 @@ export const comidaList = [
     },
     {
         "name":"Algas",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Hay una gran cantidad de algas que están indicadas para perros, como la Espirulina, la Chlorela y el Ascophylum Nodosum (la última siendo imprescindible en cualquier dieta natural cruda por su contenido de yodo). Cada una de ellas tiene características distintas y especiales, por lo que lo mejor es que os refiráis a ellas por su nombre en esta lista. ",
         "id":"8",
@@ -57,6 +75,7 @@ export const comidaList = [
     },
     {
         "name":"Almendras",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Las almendras contienen más fibra que cualquier otro fruto seco. Además, proporcionan vitaminas B y E, grasas saludables y hierro a nuestros perros. Por cada gramo de aceite de pescado podemos dar aproximadamente 3 almendras. Cuidado, en cantidades elevadas pueden producir diarrea, vómitos y dolor de estómago.",
         "id":"9",
@@ -64,6 +83,7 @@ export const comidaList = [
     },
     {
         "name":"Aloe Vera",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Se trata de una planta muy versátil ayudando a curar heridas tanto dentro como fuera del cuerpo. El gel fresco de la planta se puede poner en heridas del perro o gato, ya que no es un problema cuando se lamen. Dentro del cuerpo ayuda a problemas inflamatorios y al sistema inmunológico. La dosis sería un ml por kg masa corporal.",
         "id":"10",
@@ -71,6 +91,7 @@ export const comidaList = [
     },
     {
         "name":"Amaranto",
+        "tags":"",
         "comible":"No recomendado",
         "info":"Generalmente en Puromenu preferimos no dar cereales ya que no forman parte de la dieta natural de un perro. Los cereales contienen ácidos fíticos, también llamados anti-nutrientes que pueden interferir con la absorción de otros nutrientes. Si decides dar cereales como el amaranto recomendamos darlo en pequeñas cantidades. ",
         "id":"11",
@@ -78,6 +99,7 @@ export const comidaList = [
     },
     {
         "name":"Apio",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Totalmente sano para nuestro perro, lleno de vitaminas (A, B, C) y minerales (calcio, sodio). Mejora la salud del corazón y baja la presión. Además refrescará el aliento de nuestro perro.",
         "id":"12",
@@ -85,6 +107,7 @@ export const comidaList = [
     },
     {
         "name":"Arandanos",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Sí son beneficiosos para nuestros perros con moderación; además, son usados a menudo en comidas comerciales y puedes hacer deliciosos premios congelándolos. Se ha demostrado que su alto nivel de antioxidantes es beneficioso para los perros.",
         "id":"13",
@@ -92,6 +115,7 @@ export const comidaList = [
     },
     {
         "name":"Arroz",
+        "tags":"",
         "comible":"No recomendado",
         "info":"Aunque es común ver arroz en las formulaciones de piensos y comidas húmedas, en realidad es poco el beneficio que los perros obtienen de él y, desde luego basar la alimentación en arroz es totalmente desaconsejable. Dar solo en pequeñas cantidades y, si puede ser, integral.",
         "id":"14",
@@ -99,6 +123,7 @@ export const comidaList = [
     },
     {
         "name":"Atun",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Es una gran fuente de proteína de alta calidad y se les puede dar, tanto cocido como crudo. Si tu perro está acostumbrado a los huesos, puedes dárselo con espinas. Si decides darles atún en lata, que sea en agua, no en aceite ni con ningún tipo de escabeche. Debido a las altas cantidades de mercurio, mejor no darlo más que ocasionalmente.",
         "id":"15",
@@ -106,6 +131,7 @@ export const comidaList = [
     },
     {
         "name":"Avellanas",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Las avellanas no son tóxicas para ellos, aunque no deben estar en su dieta, hablamos de darle algo de vez en cuando, debido a la cantidad de grasa que tienen. Si tenemos perros pequeños, hay que ir alerta porque se pueden atragantar. Por supuesto, hay que evitar las cáscaras exteriores y la piel interior. ",
         "id":"16",
@@ -113,6 +139,7 @@ export const comidaList = [
     },
     {
         "name":"Avena",
+        "tags":"",
         "comible":"No recomendable",
         "info":"Sí le podemos dar avena, incluso puede ser buena para tratar problemas de estómago. Aunque en general, como el resto de los hidratos de carbono, no es necesaria en la dieta de un perro, si lo hacemos, es necesario cocerla, como haríamos para nosotros y mejor sin sabores ni azúcares.",
         "id":"17",
@@ -120,6 +147,7 @@ export const comidaList = [
     },
     {
         "name":"Platano" ,
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Por supuesto, los perros pueden comer bananas o plátano con moderación y, de hecho, muchos las adoran. Son mejores como premio que como comida por su alto contenido en azúcar. En gran cantidad pueden producir constipado en perros. Ricos en potasio y vitaminas.",
         "id":"18",
@@ -127,6 +155,7 @@ export const comidaList = [
     },
     {
         "name":"bayas de acai",
+        "tags":"",
         "comible":"Tóxico",
         "info":"Aunque no hay estudios concluyentes, estas bayas contienen teobromina, que es la sustancia por la que el chocolate en ciertas cantidades es tóxico para perros. Así, si quieres darlo, siempre en muy pequeña cantidad o si no hay necesidad, mejor evitarla.",
         "id":"19",
@@ -134,6 +163,7 @@ export const comidaList = [
     },
     {
         "name":"Berenjena",
+        "tags":"",
         "comible":"Tóxico",
         "info":"De la familia de las solanáceas, como el tomate, contiene solanina que es tóxica para los perros. Aunque veremos en diferentes fuentes que su uso, apropiadamente preparada, no es peligroso, nosotros desaconsejamos por completo su uso. Hay muchísimas verduras que podemos incluir en la dieta de nuestro perro.",
         "id":"20",
@@ -141,6 +171,7 @@ export const comidaList = [
     },
     {
         "name":"Berros",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"De la familia del nabo y la mostaza. Es totalmente aceptable para la comida de nuestro perro. Rico en vitaminas, minerales y se dice que tiene propiedades anti-inflamatorias.",
         "id":"21",
@@ -148,6 +179,7 @@ export const comidaList = [
     },
     {
         "name":"Berza",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Por supuesto que sí! Con muchos antioxidantes, es buena para los perros e incluso se le reconocen beneficios para la digestión, la piel y hasta propiedades anti-cancerígenas. Mejor cocerla para evitar ciertos componentes no recomendables como el tiocianato. Id con cuidado al principio que da un poco de gases.",
         "id":"22",
@@ -155,6 +187,7 @@ export const comidaList = [
     },
     {
         "name":"Boniato",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Geniales para perros, sobretodo cortado fino y deshidratado para usar como premio. A muchos perros les chifla, pero hay que evitar que se atiborren. Rico en betacaroteno y carbohidratos de bajo índice glucémico, mejores que las patatas para nuestros pequeños Se puede dar crudo ralladito fino, pero mejor si es hervido porque no a todos les sienta bien.",
         "id":"23",
@@ -162,6 +195,7 @@ export const comidaList = [
     },
     {
         "name":"Brocoli",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Sano y les encanta. Puedes dárselo en pequeñas cantidades (no más de un 10% de su ración) crudo o cocido tanto como snack como mezclado con su comida. Además tiene muchos nutrientes.",
         "id":"24",
@@ -169,6 +203,7 @@ export const comidaList = [
     },
     {
         "name":"Cacahuete",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Buenos para nuestro perro, pero con moderación debido a su alto contenido en grasa. Son un snack fabuloso, a ellos les encanta, sobre todo la manteca de cacahuetes. Pueden contener aflatoxinas, mejor darlos en moderación. Y deberemos dárselos sin sal ni aditivos.",
         "id":"25",
@@ -176,6 +211,7 @@ export const comidaList = [
     },
     {
         "name":"Calabacin",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Como el pepino, este es un vegetal sano y recomendable para nuestros perros. Compuesto de un 95% de agua y bajo en calorías, se lo podemos dar cocido, asado, a la plancha o en crudo, tanto en rodajas como premio como triturado a diario con su ración.",
         "id":"26",
@@ -183,6 +219,7 @@ export const comidaList = [
     },
     {
         "name":"Calabaza",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Uno de esos alimentos fantásticos: baja en calorías, rica en fibra, vitaminas A, C y K, alfa y betacarotenos. Se puede dar cruda o cocida, mejor en puré o pequeños trocitos. Ayuda en casos de diarrea y constipados.",
         "id":"27",
@@ -190,6 +227,7 @@ export const comidaList = [
     },
     {
         "name":"Calamares",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Los calamares son perfectamente aptos para él/ella y, aunque no va a pasar nada si le lanzas ese calamar rebozado y llenito de grasa, es recomendable que no sean muchos o incluso mejor, añadirlos crudos a su comida. Tienen buena proporción de proteína y son bastante magros. Como máximo, una vez a la semana en sustitución de la carne en su dieta es una buena medida.",
         "id":"28",
@@ -197,6 +235,7 @@ export const comidaList = [
     },
     {
         "name":"Canela",
+        "tags":"",
         "comible":"Tóxico",
         "info":"En cierta cantidad se convierte en tóxica para nuestros canes. Aparte de sus ingredientes saludables, la canela también contiene la sustancia cumarina. Se sospecha que la cumarina es perjudicial para la salud, especialmente para el hígado. Significa que no pasará nada si compartimos una de nuestras galletas napolitanas, pero mejor evitarlo en su plato diario.",
         "id":"29",
@@ -204,6 +243,7 @@ export const comidaList = [
     },
     {
         "name":"Caqui",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Al igual que el melocotón, tiene mucha vitamina C (aunque a los perros no les suele hacer falta), agua y fibra. Si se lo dais maduro y evitáis el huesopara evitar accidentes, en el caso de que lo encontréis (muchos no tienen), es una fruta muy a tener en cuenta en temporada.",
         "id":"30",
@@ -211,6 +251,7 @@ export const comidaList = [
     },
     {
         "name":"Carne",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales. La única excepción que establecemos es la de cerdo, porque puede, aunque con poca probabilidad, estar infectada con Aujezsky.",
         "id":"31",
@@ -218,6 +259,7 @@ export const comidaList = [
     },
     {
         "name":"Chirimoya",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Una fruta dulce que está muy poquito en temporada y que a muchos les encanta. Si nos tomamos la molestia de quitar las pepitas podemos compartir un poquito con ellos, pero no de continuo porque tiene bastante azúcar. Es rica en B1, B2, B3, B9 y A, muchos minerales y fibra.",
         "id":"32",
@@ -225,6 +267,7 @@ export const comidaList = [
     },
     {
         "name":"Chocolate",
+        "tags":"",
         "comible":"Tóxico",
         "info":"Nada recomendable debido a su contenido en teobromina, que nosotros podemos procesar bien, pero ellos lo hacen tan lentamente que les es tóxico. Afortunadamente, necesitan comer mucha cantidad para que les resulte mortal, pero mejor mantenerlo lejos y, por supuesto, fuera de su ración. ",
         "id":"33",
@@ -232,6 +275,7 @@ export const comidaList = [
     },
     {
         "name":"Cebolla",
+        "tags":"",
         "comible":"Tóxico",
         "info":"La cebolla es uno de esos alimentos a los que hay que decir no, NO. En concreto, contiene tiosulfato, una sustancia tóxica para perros y gatos. Su consumo, ya sea cruda o cocida, incluso en poca cantidad, produce anemia hemolítica, una afección de los glóbulos rojos que puede ser letal. Así que mucho cuidado con esos restos de hamburguesa o cocina diaria.",
         "id":"34",
@@ -239,6 +283,7 @@ export const comidaList = [
     },
     {
         "name":"Ciruela",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Bien si es en poca cantidad, evitando la piel y cuando la ciruela está madura. Preferiblemente en trocitos junto con su comida. Tiene vitamina C y antioxidantes. Evitar siempre el hueso que, como con otras fruta, aunque en pequeña cantidad contiene cianuro y también puede obstruirles el tracto.",
         "id":"35",
@@ -246,6 +291,7 @@ export const comidaList = [
     },
     {
         "name":"Coco",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Tanto el agua de coco como la carne es buena para ellos, siempre que no les demos nada de la cáscara marrón ni de los pelos exteriores. Constituye un premio estupendo seco o en su estado natural. El coco no es bajo en grasa, por lo que si nuestro perro necesita de control de peso es mejor no abusar de él.",
         "id":"36",
@@ -253,6 +299,7 @@ export const comidaList = [
     },
     {
         "name":"Col",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"La col es segura para ellos y a muchos les encanta, tanto la morada como la normal. Ayuda a la buena digestión y en procesos cancerígenos. Aunque se puede dar cruda en pocas cantidades, si quieres darle más es mejor cocerla, debido al tiocianato, que en cantidad puede inducir hipotiroidismo. Para evitar la flatulencias, empieza poco a poco y observa a tu perro.",
         "id":"37",
@@ -260,6 +307,7 @@ export const comidaList = [
     },
     {
         "name":"Coliflor",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"La coliflor es buena para los perros, por su alto contenido en vitamina C, cisteína, carotenos con propiedades depurativas. El único problema es que, como pasa con nosotros, dan gases, por lo que en general, cuando la demos queremos hacerlo muy poco a poco. Recuerda siempre cocerla antes de añadirla a su plato.",
         "id":"38",
@@ -267,6 +315,7 @@ export const comidaList = [
     },
     {
         "name":"Espirulina",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Sin duda uno de los mejores complementos que podemos añadir a la dieta de nuestros perro, no solo por ser uno de los alimentos con más proteína (70%) sino por su efecto limpiador y su aporte al sistema inmunitario. Recomendamos diariamente 1.25g para perros pequeños y 2.5g para razas medianas o grandes.",
         "id":"39",
@@ -274,6 +323,7 @@ export const comidaList = [
     },
     {
         "name":"Espinacas",
+        "tags":"",
         "comible":"Beneficioso",
         "info":"Llenas de vitaminas A, B, C y K, beta-caroteno, fibra y hierro. Aunque hay leyendas, la espinaca es estupenda para nuestro perro aunque no siempre les gusta. Es incluso indicada en casos de perros con anemia. Si es cocinada, mejor poca cantidad, ya que presenta altos niveles de oxalatos, que pueden dar lugar a piedras en el riñón.",
         "id":"40",
