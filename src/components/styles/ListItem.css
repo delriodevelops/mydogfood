@@ -116,8 +116,18 @@
     }
  }
 
- .comidaListItem-container:hover {
-    top:-24px;
+ .comidaListItem-container:hover,.comidaListItem-container:target {
+    animation: comidaListItem-jump;
+    animation-duration: .5s;
     background: rgba(255,255,255,.7);
-
+    top: -12px;
  }
+
+ @keyframes comidaListItem-jump {
+    0%{top: 0;}
+    28.57%{top:-24px}
+    50%{top: 0;}
+    64.28%{top: -12px;}
+    75% {top: 0;}
+    100%{top: -12px;}
+}
