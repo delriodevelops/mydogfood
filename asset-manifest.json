@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mydogfood/static/css/main.f62d9dcf.css",
+    "main.css": "/mydogfood/static/css/main.9f602efa.css",
     "main.js": "/mydogfood/static/js/main.09864f9c.js",
     "static/js/787.602f096c.chunk.js": "/mydogfood/static/js/787.602f096c.chunk.js",
     "index.html": "/mydogfood/index.html",
-    "main.f62d9dcf.css.map": "/mydogfood/static/css/main.f62d9dcf.css.map",
+    "main.9f602efa.css.map": "/mydogfood/static/css/main.9f602efa.css.map",
     "main.09864f9c.js.map": "/mydogfood/static/js/main.09864f9c.js.map",
     "787.602f096c.chunk.js.map": "/mydogfood/static/js/787.602f096c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62d9dcf.css",
+    "static/css/main.9f602efa.css",
     "static/js/main.09864f9c.js"
   ]
 }
